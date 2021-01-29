@@ -1,0 +1,17 @@
+{
+  "name": "typescript-canvas-template",
+  "author": "CODELEX",
+  "scripts": {
+    "start:console": "ts-node ./src/console-app/index.ts",
+    "start:web": "parcel ./src/web/index.html",
+    "prettier": "npx prettier --write ."
+  },
+  "dependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "devDependencies": {
+    "prettier": "2.2.1",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  }
+}
